@@ -1,0 +1,49 @@
+.taskForm {
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.taskItem {
+  background: white;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  border: 1px solid #ff4444;
+  background: none;
+  border: none;
+  color: #ff4444;
+  cursor: pointer;
+  font-size: 16px;
+}
